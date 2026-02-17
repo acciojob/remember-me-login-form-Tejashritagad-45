@@ -7,19 +7,33 @@
 </head>
 
 <body>
-	<form class="form">
-		<h1>Login Form</h1>
-		Name
-		<input type="text" placeholder="Username" id="username">
+	<h1>Login Form</h1>
 
-		password
-		<input type="password" placeholder="password" id="password">
-		Rember me
-		<input  type="checkbox" id="checkbox" />
-		<button class="btn">Submit</button>
+<form class="form">
 
-		<button  id="existing" style="display:none">login as extising user</button>
-	</form>
+<label for="username">Username:</label>
+<input type="text" id="username" placeholder="Username">
+
+<br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="Password">
+
+<br><br>
+
+<label for="checkbox">Remember me:</label>
+<input type="checkbox" id="checkbox">
+
+<br><br>
+
+<input type="submit" id="submit" value="Submit">
+
+</form>
+
+<br>
+
+<button id="existing" style="display:none">Login as existing user</button>
+
 		<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
